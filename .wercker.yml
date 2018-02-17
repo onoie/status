@@ -7,7 +7,7 @@ build:
         code: |
           echo "Hello,World!"
     - script:
-        name: echo nodejs information
+        name: Output useful info for debugging
         code: |
           echo "node version $(node -v) running"
           echo "npm version $(npm -v) running"
