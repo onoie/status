@@ -1,0 +1,19 @@
+language: bash
+notifications:
+  email: false
+git:
+  submodules: false
+ddons:
+  apt:
+    packages:
+      - wget
+      - zip
+before_install:
+  - sudo add-apt-repository ppa:duggan/bats --yes
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq bats
+#script:
+#  - ./bootstrap.sh
+#after_success:
+#  - git checkout --orphan gh-pages
+
