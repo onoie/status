@@ -14,6 +14,8 @@
 
 ## cron / circleci
 [![CircleCI](https://circleci.com/gh/TotemoRisky/cron.svg?style=svg)](https://circleci.com/gh/TotemoRisky/cron)
+  
+[github.com/TotemoRisky/cron](https://github.com/TotemoRisky/cron)
 
 ### generate files
 * /latest.json
