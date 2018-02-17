@@ -4,7 +4,7 @@
   "description": "[![Build Status](https://travis-ci.org/onoie/status.svg?branch=master)](https://travis-ci.org/onoie/status)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "istanbul cover node_modules/mocha/bin/_mocha && codecov"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   },
   "devDependencies": {
     "codecov": "^3.0.0",
+    "expect.js": "^0.3.1",
+    "istanbul": "^0.4.5",
     "mocha": "^5.0.1"
   }
 }
