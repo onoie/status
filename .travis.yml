@@ -7,6 +7,7 @@ git:
 
 language:
   node_js
+sudo: false
 addons:
   apt:
     packages:
