@@ -13,6 +13,7 @@ sudo: false
 addons:
   apt:
     packages:
+      - curl
       - wget
       - zip
 
@@ -20,5 +21,5 @@ addons:
 install:
   - npm install
 script:
-  - npm test
+  - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
   - codecov
