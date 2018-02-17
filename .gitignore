@@ -2,6 +2,9 @@
 **/.idea/*
 !**/.idea/runConfigurations
 
+ok
+main.go
+
 coverage
 
 node_modules
