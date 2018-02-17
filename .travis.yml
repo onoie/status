@@ -8,8 +8,7 @@ git:
 language:
   node_js
 node_js:
-  - 'stable'
-  - 'lts/*'
+  -  8.6
 sudo: false
 addons:
   apt:
