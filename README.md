@@ -22,5 +22,5 @@
 [github.com/TotemoRisky/cron](https://github.com/TotemoRisky/cron)
 
 ### generate files
+* /VERSION
 * /latest.json
-* /ok
