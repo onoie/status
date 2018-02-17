@@ -1,0 +1,18 @@
+box:
+ id: node:latest
+build:
+  steps:
+    - script:
+        name: HelloWorld
+        code: |
+          echo "Hello,World!"
+    - script:
+        name: echo nodejs information
+        code: |
+          echo "node version $(node -v) running"
+          echo "npm version $(npm -v) running"
+    - npm-install
+    - npm-test
+#    - script:
+#        name: build
+#        code: npm run build
