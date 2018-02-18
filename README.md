@@ -17,7 +17,7 @@
 [![wercker status](https://app.wercker.com/status/cba975959e3d2ad5016865a06b46ae63/s/master "wercker status")](https://app.wercker.com/project/byKey/cba975959e3d2ad5016865a06b46ae63)
 
 ## circleci
-[![CircleCI](https://circleci.com/gh/onoie/cron.svg?style=svg)](https://circleci.com/gh/onoie/status)
+[![CircleCI](https://circleci.com/gh/onoie/status.svg?style=svg)](https://circleci.com/gh/onoie/status)
 
 ## cron
 [![CircleCI](https://circleci.com/gh/TotemoRisky/cron.svg?style=svg)](https://circleci.com/gh/TotemoRisky/cron)
