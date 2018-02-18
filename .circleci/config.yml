@@ -1,0 +1,15 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/workspace
+    docker:
+      - image: node:8.6.0
+    steps:
+      - checkout
+      - run:
+          name: System information
+          command: |
+            echo "Node $(node -v)"
+      - run:
+          name: Install dependencies
+          command: npm install
