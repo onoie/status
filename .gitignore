@@ -5,7 +5,7 @@
 ok
 main.go
 
-coverage
+coverage/**
 
 node_modules
 package-lock.json
