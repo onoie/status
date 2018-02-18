@@ -4,7 +4,7 @@
 
 [status.onoie.com](https://status.onoie.com/)
 
-## travis / codecov / github pages
+## travis / codecov
 [![Build Status](https://travis-ci.org/onoie/status.svg?branch=master)](https://travis-ci.org/onoie/status)
 [![codecov](https://codecov.io/gh/onoie/status/branch/master/graph/badge.svg)](https://codecov.io/gh/onoie/status)
 
@@ -16,7 +16,10 @@
 ## wercker
 [![wercker status](https://app.wercker.com/status/cba975959e3d2ad5016865a06b46ae63/s/master "wercker status")](https://app.wercker.com/project/byKey/cba975959e3d2ad5016865a06b46ae63)
 
-## cron / circleci
+## circleci
+[![CircleCI](https://circleci.com/gh/onoie/cron.svg?style=svg)](https://circleci.com/gh/onoie/status)
+
+## cron
 [![CircleCI](https://circleci.com/gh/TotemoRisky/cron.svg?style=svg)](https://circleci.com/gh/TotemoRisky/cron)
 
 [github.com/TotemoRisky/cron](https://github.com/TotemoRisky/cron)
