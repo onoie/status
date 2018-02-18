@@ -10,14 +10,12 @@ jobs:
     working_directory: ~/status
     steps:
       - checkout
-      - run:
-        name: System information
-        command: |
-          echo "Node $(node -v)"
+      - run: echo "Node $(node -v)"
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "package.json" }}
           - v1-dependencies-
+      - run: npm -v
       - run: npm install
       - save_cache:
           paths:
